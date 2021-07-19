@@ -1,0 +1,16 @@
+.dialogs__title{
+    color: olive;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.dialogs__col{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogs__list{
+    border-right: 1px solid bisque;
+}
+.messages{
+    padding-left: 10px;
+}
