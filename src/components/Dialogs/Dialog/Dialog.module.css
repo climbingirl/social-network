@@ -1,0 +1,7 @@
+.dialog{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+a.active{
+    color: saddlebrown;
+}

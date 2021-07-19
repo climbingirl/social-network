@@ -1,0 +1,11 @@
+.item{
+    margin-bottom: 20px;
+}
+.like{
+    display: flex;
+    align-items: center;
+}
+.like svg{
+    width: 20px;
+    margin-right: 5px;
+}

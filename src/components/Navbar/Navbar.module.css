@@ -1,0 +1,13 @@
+.menu{
+  grid-area: m;
+  background-color: whitesmoke;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu li{
+  margin-bottom: 10px;
+}
+a.active{
+  color:olive;
+}
