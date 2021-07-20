@@ -30,11 +30,11 @@ const profileReducer = (state = initialState, action) => {
                 posts: [...state.posts, newPost],
                 newPostText: ""
             };
-            case SET_USER_PROFILE:
-                return {
-                    ...state,
-                    profile: action.profile
-                };
+        case SET_USER_PROFILE:
+            return {
+                ...state,
+                profile: action.profile
+            };
         default:
             return state;
     }

@@ -6,3 +6,8 @@
 .header img{
   width: 80px;
 }
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
