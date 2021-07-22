@@ -5,7 +5,6 @@ function ProfileInfo(props) {
     if (!props.profile) {
         return <Preloader />
     }
-
     return (
         <div className={s.profileInfo}>
             <div className={s.banner}>
