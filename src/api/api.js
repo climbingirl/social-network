@@ -15,8 +15,14 @@ export const usersAPI = {
                 return response.data;
             });
     },
-    getUsers2(pageNumber, pageSize) {
-        return instance.get(`users?page=${pageNumber}&count=${pageSize}`)
+    follow(userId) {
+        return instance.post(`follow/${userId}`)
+            .then(response => {
+                return response.data;
+            });
+    },
+    unfollow(userId) {
+        return instance.delete(`follow/${userId}`)
             .then(response => {
                 return response.data;
             });
