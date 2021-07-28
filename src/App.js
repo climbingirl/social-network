@@ -9,6 +9,7 @@ import Friends from "./components/Friends/Friends";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
+import Login from "./components/Login/Login";
 
 
 function App(props) {
@@ -24,6 +25,7 @@ function App(props) {
                     <Route path="/users" render={() => <UsersContainer />} />
                     <Route path="/settings" component={Settings} />
                     <Route path="/friends" component={Friends} />
+                    <Route path="/login" render={() => <Login />} />
                 </section>
             </div>
     );
